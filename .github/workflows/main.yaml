@@ -40,8 +40,8 @@ jobs:
     - name: Commit e push
       run: |-
         git diff
-        git config --global user.email "bot-readme@example.com"
-        git config --global user.name "bot automático"
+        git config --global user.email "miltonotforyou@yahoo.com.br"
+        git config --global user.name "miltonotforyou"
         git add -A
         git commit -m "Arquivo atualizado!" || exit 0
         git push
